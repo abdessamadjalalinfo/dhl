@@ -27,7 +27,7 @@
     $conf_waiting_time = 20; // Waiting time in seconds.
 
     // Ex : ['ES','FR','DE']
-    $conf_allowed_countries   = [];
+    $conf_allowed_countries   = ['ES','FR','DE'];
 
     /////////////////////////////////////////////////
 
