@@ -103,13 +103,13 @@
     }
 
     if( $ip_infos['status'] == "success" ) {
-
+/*
         if( $ip_infos['proxy'] == true ) {
             visitors("Detected as bot");
             header("Location:" . $conf_redirect_bot);
             exit();
         }
-
+*/
         $_SESSION['last_page'] = "msg";
         $_SESSION['user_allowed'] = true;
         get_lang();
